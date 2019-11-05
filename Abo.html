@@ -7,31 +7,47 @@
 
 <body>
 
-<h1>Abos hinzufügen</h1> <br>
+<h1>Abos hinzufügen</h1>
 
 <p>
 <form action="/action_page.php">
-    <select name="Abos" size="4" multiple>
-        <option value="Netflix">Volvo</option>
-        <option value="Amazon">Saab</option>
-        <option value="Audible">Fiat</option>
-        <option value="Süddeutsche Zeitung">Audi</option>
+    <select name="Abos" size="3" multiple>
+        <option value="Netflix">Netflix</option>
+        <option value="Amazon">Amazon</option>
+        <option value="Audible">Audible</option>
+        <option value="Süddeutsche Zeitung">Süddeutsche Zeitung</option>
     </select>
     <br><br>
-    <input type="submit"> </form></p>
+
 
 </form>
-<p> <form>
-    Abo Name:<br>
-    <input type="text" name="Abo Name"><br>
-    Kosten pro Monat:<br>
-    <input type="text" name="Kosten pro Monat:"><br>
-    Startdatum:<br>
-    <input type="text" name="Startdatum:"><br>
-    Laufzeit:<br>
-    <input type="text" name="Laufzeit:"><br>
-    Kündigungsfrist:<br>
-    <input type="text" name="Kündigungsfrist:"><br>
+<p> <form action="/actionpage.php">
+    <fieldset>
+        <legend>Zum selbst eintragen:</legend>
+        Abo Name:<br>
+        <input type="text" name="Abo Name"><br>
+        Personen pro Abo: <br>
+        <form action="/action_page.php">
+            <select anzahl="Personen">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select> <br>
+        </form>
+        Kosten pro Monat:<br>
+        <input type="text" name="Kosten pro Monat:"><br>
+        Startdatum:<br>
+        <input type="text" name="Startdatum:"><br>
+        Laufzeit:<br>
+        <input type="text" name="Laufzeit:"><br>
+        Kündigungsfrist:<br>
+        <input type="text" name="Kündigungsfrist:"><br>
+    </fieldset> <br>
+
+    <input type="submit"></input> </form></p>
+
 </form>  </p>
 </body>
 </html>
