@@ -1,6 +1,5 @@
 <template>
     <vue>
-        form action="">
         <div class="container">
             <h1>Registrierung</h1>
             <p>Bitte die Felder ausfüllen um einen Account zu erstellen</p>
