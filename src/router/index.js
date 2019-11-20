@@ -4,6 +4,7 @@ import Login from '../views/Login_vue'
 import HomePage from '../views/Home'
 import Abo_anlegen from '../views/Abo_anlegen'
 import abobearbeiten from "../views/abobearbeiten";
+import Passwortvergessen from "../views/Passwortvergessen";
 
 import HelloWorld from "../components/HelloWorld";
 
@@ -27,5 +28,9 @@ export default new VueRouter({
             path: '/abobearbeiten',
             component: abobearbeiten
         },
+        {
+            path: '/Passwortvergessen',
+            component: Passwortvergessen
+        }
     ]
 })
