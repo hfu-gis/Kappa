@@ -33,11 +33,11 @@ export default new VueRouter({
         {
             path: '/Passwortvergessen',
             component: Passwortvergessen
-        }
+        },
         {
             path: '/Passwortfalsch',
             component: Passwortfalsch
-        }
+        },
         {
             path: '/Registrieren',
             component: Registrieren
