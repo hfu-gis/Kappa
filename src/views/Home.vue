@@ -1,10 +1,14 @@
 <template>
-    <div>
-        <p style="text-align: center">
-            <button><a href="login.html">Login</a></button><br>
-            <button><a href="registrieren.html">Registrieren</a></button>
-        </p>
-    </div>
+    <v-container>
+        <v-layout row wrap>
+            <v-flex xs12 sm6>
+                <v-btn normal router to="/login">Login</v-btn>
+            </v-flex>
+            <v-flex xs12 sm6>
+                <v-btn normal router to="/Registrieren">Registrieren</v-btn>
+            </v-flex>
+        </v-layout>
+    </v-container>
 </template>
 
 <script>
