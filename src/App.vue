@@ -1,23 +1,29 @@
 <template>
-  <div>
-      <v-toolbar info>
-          <v-toolbar-title>MySub</v-toolbar-title>
-          <v-spacer></v-spacer>
-          <v-toolbar-items>
-              <v-btn router to="/login">
-              <v-icon left >mdi-account</v-icon>
-              Einloggen
-              </v-btn>
-              <v-btn router to="/Registrieren">
-                  <v-icon left>mdi-account</v-icon>
-                  Registrieren
-              </v-btn>
-          </v-toolbar-items>
-      </v-toolbar>
-        <main>
-        <router-view></router-view>
-        </main>
-  </div>
+    <v-app>
+          <v-app-bar app
+                   color="red"
+                   dark
+                   height="50">
+            <v-toolbar-title left>
+                <router-link to="/home" tag="span" style="cursor: pointer">Y-Subs</router-link>
+            </v-toolbar-title>
+            <v-spacer/>
+
+              <v-toolbar-items>
+                  <v-btn text router to="/login">
+                      <v-icon left>mdi-account</v-icon> Login
+                  </v-btn>
+                  <v-btn text router to="/Registrieren">
+                      <v-icon left>mdi-account</v-icon> Registrieren
+                  </v-btn>
+              </v-toolbar-items>
+        </v-app-bar>
+        <v-main>
+            <v-app>
+                <router-view/>
+            </v-app>
+        </v-main>
+    </v-app>
 </template>
 
 <script>
