@@ -1,44 +1,19 @@
 <template>
   <div>
-      <v-app-bar
-              color="deep-purple accent-4"
-              dark
-      >
-          <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-          <v-toolbar-title>App-Organizer</v-toolbar-title>
-
+      <v-toolbar info>
+          <v-toolbar-title>MySub</v-toolbar-title>
           <v-spacer></v-spacer>
-
-          <v-btn icon>
-              <v-icon>mdi-account</v-icon>
-          </v-btn>
-
-          <v-btn icon>
-              <v-icon>mdi-apps</v-icon>
-          </v-btn>
-
-          <v-menu
-                  left
-                  bottom
-          >
-              <template v-slot:activator="{ on }">
-                  <v-btn icon v-on="on">
-                      <v-icon>mdi-dots-vertical</v-icon>
-                  </v-btn>
-              </template>
-
-              <v-list>
-                  <v-list-item
-                          v-for="n in 5"
-                          :key="n"
-                          @click="() => {}"
-                  >
-                      <v-list-item-title>Option {{ n }}</v-list-item-title>
-                  </v-list-item>
-              </v-list>
-          </v-menu>
-      </v-app-bar>
+          <v-toolbar-items>
+              <v-btn router to="/login">
+              <v-icon left >mdi-account</v-icon>
+              Einloggen
+              </v-btn>
+              <v-btn router to="/Registrieren">
+                  <v-icon left>mdi-account</v-icon>
+                  Registrieren
+              </v-btn>
+          </v-toolbar-items>
+      </v-toolbar>
         <main>
         <router-view></router-view>
         </main>
@@ -46,11 +21,11 @@
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld';
+  import Home from './views/Home';
   export default {
     name: 'App',
     components: {
-      HelloWorld,
+      Home,
     },
     data: () => ({
       //
