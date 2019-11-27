@@ -4,7 +4,7 @@
             <h1>Abo bearbeiten <br></h1>
             Anbieter<br>
             <select name="cars">
-                <option value="neflix">Neflix</option>
+                <option value="netflix">Neflix</option>
                 <option value="amazon">Amazon</option>
                 <option value="disney+">Disney+</option>
                 <option value="Anderer">Anderer</option>
