@@ -1,20 +1,86 @@
+
 <template>
     <div>
-        <h1 align="center">Übersicht</h1>
-
-        <h2> Deine Abonnements </h2>
-        <ol>
-            1.    <input type="text" name=""><br>
-            2.    <input type="text" name=""><br>
-
-        </ol>
-        <button><a href="Abo.html">Abos hinzufügen</a></button>
+        <v-breadcrumbs></v-breadcrumbs>
+        <v-breadcrumbs></v-breadcrumbs>
+        <v-data-table
+                :headers="headers"
+                :items="Abonnements"
+                :items-per-page="5"
+                class="elevation-1"
+        ></v-data-table>
     </div>
 </template>
 
 <script>
     export default {
-        name: "Übersicht"
+        data () {
+            return {
+                headers: [
+                    {
+                        text: 'Anbieter',
+                        align: 'left',
+                        sortable: false,
+                        value: 'name',
+                    },
+                    { text: 'Startdatum', value: 'startdatum' },
+                    { text: 'Kosten pro Monat', value: 'kostenpromonat' },
+                    { text: 'Anzahl der Nutzer', value: 'anzahldernutzer' },
+                    { text: 'Abbuchungsdatum (jeden Monats)', value: 'abbuchungsdatumjedenmonats' },
+                    { text: 'Kündigunsfrist (in Wochen)', value: 'kündigungsfristinwochen' },
+                ],
+                Abonnements: [
+                    {
+                        name: 'Netflix',
+                        startdatum: 17.01,
+                        kostenpromonat: 10.00,
+                        anzahldernutzer: 2,
+                        abbuchungsdatumjedenmonats: 24.,
+                        kündigungsfristinwochen: 5,
+                    },
+                    {
+                        name: 'Spotify',
+                        startdatum: 17.01,
+                        kostenpromonat: 10.00,
+                        anzahldernutzer: 2,
+                        abbuchungsdatumjedenmonats: 24.,
+                        kündigungsfristinwochen: 5,
+                    },
+                    {
+                        name: 'Amazon Prime',
+                        startdatum: 17.01,
+                        kostenpromonat: 10.00,
+                        anzahldernutzer: 2,
+                        abbuchungsdatumjedenmonats: 24.,
+                        kündigungsfristinwochen: 5,
+                    },
+                    {
+                        name: 'Deezer',
+                        startdatum: 17.01,
+                        kostenpromonat: 10.00,
+                        anzahldernutzer: 2,
+                        abbuchungsdatumjedenmonats: 24.,
+                        kündigungsfristinwochen: 5,
+                    },
+                    {
+                        name: 'Apple Music',
+                        startdatum: 17.01,
+                        kostenpromonat: 10.00,
+                        anzahldernutzer: 2,
+                        abbuchungsdatumjedenmonats: 24.,
+                        kündigungsfristinwochen: 5,
+                    },
+                    {
+                        name: 'Fitnessstudio',
+                        startdatum: 17.01,
+                        kostenpromonat: 10.00,
+                        anzahldernutzer: 2,
+                        abbuchungsdatumjedenmonats: 24.,
+                        kündigungsfristinwochen: 5,
+                    },
+                ],
+            }
+        },
     }
 </script>
 
