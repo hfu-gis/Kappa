@@ -14,30 +14,17 @@
                       <v-icon left>mdi-account</v-icon> Login
                   </v-btn>
                   <v-btn text router to="/Registrieren">
-                      <v-icon left>mdi-account</v-icon> Registrieren
+                      <v-icon left>mdi-account-edit</v-icon> Registrieren
                   </v-btn>
               </v-toolbar-items>
         </v-app-bar>
         <v-main>
             <v-app>
-                <router-view/>
+                <router-view></router-view>
             </v-app>
         </v-main>
     </v-app>
 </template>
 
 <script>
-  import Home from './views/Home';
-  export default {
-    name: 'App',
-    components: {
-      Home,
-    },
-    data: () => ({
-      //
-    }),
-    created() {
-      this.$router.push({path: '/home'})
-    }
-  };
 </script>
