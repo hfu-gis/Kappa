@@ -1,10 +1,6 @@
 <template>
     <div>
         <p>Lorem Ipsum</p>
-        <v-parallax
-                height="500"
-                src="../assets/images/smartphone_bahnhof.jpg"
-        ></v-parallax>
         <v-container>
             <v-row           :align="alignment"
                              :justify="justify">

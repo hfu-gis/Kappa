@@ -5,7 +5,7 @@
                    dark
                    height="50">
             <v-toolbar-title left>
-                <router-link to="/home" tag="span" style="cursor: pointer">MY-Subs</router-link>
+                <router-link to="/home" tag="span" style="cursor: pointer">Y-Subs</router-link>
             </v-toolbar-title>
             <v-spacer/>
 
