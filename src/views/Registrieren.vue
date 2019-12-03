@@ -68,7 +68,7 @@
                             <v-card-actions>
                                 <v-spacer/>
                                 <v-btn color="red" dark to="/Übersicht" >
-                                    Login
+                                   Registrieren
                                 </v-btn>
                             </v-card-actions>
                         </v-card>
