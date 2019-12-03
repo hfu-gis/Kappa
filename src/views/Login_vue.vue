@@ -22,40 +22,14 @@
                             >
                                 <v-toolbar-title>Login form</v-toolbar-title>
                                 <v-spacer/>
-                                <v-tooltip bottom>
-                                    <template v-slot:activator="{ on }">
-                                        <v-btn
-                                                :href="source"
-                                                icon
-                                                large
-                                                target="_blank"
-                                                v-on="on"
-                                        >
-                                            <v-icon>mdi-code-tags</v-icon>
-                                        </v-btn>
-                                    </template>
-                                    <span>Source</span>
-                                </v-tooltip>
-                                <v-tooltip right>
-                                    <template v-slot:activator="{ on }">
-                                        <v-btn
-                                                icon
-                                                large
-                                                href="https://codepen.io/johnjleider/pen/pMvGQO"
-                                                target="_blank"
-                                                v-on="on"
-                                        >
-                                            <v-icon>mdi-codepen</v-icon>
-                                        </v-btn>
-                                    </template>
-                                    <span>Codepen</span>
-                                </v-tooltip>
+
                             </v-toolbar>
                             <v-card-text>
-                                <v-form>
+                                <v-form @submit="verifyLogin">
                                     <v-text-field
                                             label="Login"
                                             name="login"
+                                            v-model="login"
                                             prepend-icon="mdi-account"
                                             type="text"
                                     />
@@ -64,16 +38,18 @@
                                             id="password"
                                             label="Password"
                                             name="password"
+                                            v-model="password"
                                             prepend-icon="mdi-textbox-password"
                                             type="password"
                                     />
+                                    <v-spacer/>
+                                    <v-btn type="submit" color="red" dark>
+                                        Login
+                                    </v-btn>
                                 </v-form>
                             </v-card-text>
                             <v-card-actions>
-                                <v-spacer/>
-                                <v-btn color="red" dark to="/home">
-                                    Login
-                                </v-btn>
+
                             </v-card-actions>
                         </v-card>
                     </v-col>
@@ -87,6 +63,20 @@
     export default {
         props: {
             source: String,
+        },
+        data: {
+            login: null,
+            password: null
+        },
+        methods: {
+            verifyLogin: function (e) {
+                console.log(this.login);
+                if(this.login == "user" && this.password == "password"){
+                    this.$router.push('/Übersicht');
+                }
+
+
+            }
         }
     }
 </script>
