@@ -9,6 +9,21 @@
                 :items-per-page="5"
                 class="elevation-1"
         ></v-data-table>
+        <v-app>
+            <v-app-bar app
+                       color="red"
+                       dark
+                       height="50">
+                <v-toolbar-title left>
+                    <router-link to="/home" tag="span" style="cursor: pointer">My-Subs</router-link>
+                </v-toolbar-title>
+            </v-app-bar>
+            <v-main>
+                <v-app>
+                    <router-view></router-view>
+                </v-app>
+            </v-main>
+        </v-app>
     </div>
 </template>
 
