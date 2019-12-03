@@ -20,23 +20,46 @@
                                     dark
                                     flat
                             >
-                                <v-toolbar-title>Login form</v-toolbar-title>
+                                <v-toolbar-title>Registrieren </v-toolbar-title>
                                 <v-spacer/>
 
                             </v-toolbar>
                             <v-card-text>
                                 <v-form>
                                     <v-text-field
-                                            label="Login"
-                                            name="login"
-                                            prepend-icon="mdi-account"
+                                            label="Vorname"
+                                            name="Vorname"
+                                            prepend-icon="mdi-textbox-password"
                                             type="text"
                                     />
 
                                     <v-text-field
-                                            id="password"
-                                            label="Password"
-                                            name="password"
+                                            label="Nachname"
+                                            name="Nachname"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="text"
+                                    />
+                                    <v-text-field
+                                            label="Geburtsdatum"
+                                            name="Geburtsdatum"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="text"
+                                    />
+                                    <v-text-field
+                                            label="E-Mailadresse"
+                                            name="E-Mailadresse"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="text"
+                                    />
+                                    <v-text-field
+                                            label="Passwort"
+                                            name="Passwort"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="password"
+                                    />
+                                    <v-text-field
+                                            label="Passwort bestätigen"
+                                            name="PasswortBestätigen"
                                             prepend-icon="mdi-textbox-password"
                                             type="password"
                                     />
