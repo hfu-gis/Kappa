@@ -4,8 +4,14 @@
                    color="red"
                    dark
                    height="50">
+              <v-img
+                      src="./assets/images/logo.png"
+                      max-height="90"
+                      max-width="90"
+                      contain
+              ></v-img>
             <v-toolbar-title left>
-                <router-link to="/home" tag="span" style="cursor: pointer">MY-Subs</router-link>
+                <router-link to="/home" tag="span" style="cursor: pointer"></router-link>
             </v-toolbar-title>
             <v-spacer/>
 
