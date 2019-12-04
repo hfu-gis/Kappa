@@ -39,10 +39,10 @@
                         value: 'name',
                     },
                     { text: 'Startdatum', value: 'startdatum' },
-                    { text: 'Kosten pro Monat', value: 'kostenpromonat' },
                     { text: 'Anzahl der Nutzer', value: 'anzahldernutzer' },
                     { text: 'Abbuchungsdatum (jeden Monats)', value: 'abbuchungsdatumjedenmonats' },
                     { text: 'Kündigunsfrist (in Wochen)', value: 'kündigungsfristinwochen' },
+                    { text: 'Kosten pro Monat', value: 'kostenpromonat' },
                 ],
                 Abonnements: [
                     {
