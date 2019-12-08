@@ -6,9 +6,10 @@
         <v-data-table
                 :headers="headers"
                 :items="Abonnements"
-                :items-per-page="5"
+                :items-per-page="10"
                 class="elevation-1"
         ></v-data-table>
+        <v-btn normal router to="/abo_anlegen" class="red" dark>Hinzufügen</v-btn>
         <v-app>
             <v-app-bar app
                        color="red"
