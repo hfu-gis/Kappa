@@ -1,10 +1,11 @@
 <template>
     <div>
-        <p>Lorem Ipsum</p>
-        <v-parallax
+
+        <v-img
                 height="500"
-                src="../assets/images/smartphone_bahnhof.jpg"
-        ></v-parallax>
+                width="1024"
+                src="../assets/images/2148585.png"
+        ></v-img>
         <v-container>
             <v-row           :align="alignment"
                              :justify="justify">
