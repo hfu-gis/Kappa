@@ -2,9 +2,8 @@
     <div>
 
         <v-img
-                height="500"
-                width="1024"
-                src="../assets/images/2148585.png"
+
+                src="../assets/images/2148585_2.jpg"
         ></v-img>
         <v-container>
             <v-row           :align="alignment"
