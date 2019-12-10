@@ -4,17 +4,15 @@
                    color="red"
                    dark
                    height="50">
-              <v-img
+              <router-link to="/home">
+                <v-img
                       src="./assets/images/logo.png"
                       max-height="90"
                       max-width="90"
-                      contain
-              ></v-img>
-            <v-toolbar-title left>
-                <router-link to="/home" tag="span" style="cursor: pointer"></router-link>
-            </v-toolbar-title>
+                      contain>
+                </v-img>
+              </router-link>
             <v-spacer/>
-
               <v-toolbar-items>
                   <v-btn text router to="/login">
                       <v-icon left>mdi-account</v-icon> Login
