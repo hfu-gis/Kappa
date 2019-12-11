@@ -10,8 +10,8 @@
             <router-link to="/home">
                 <v-img
                         src="./assets/images/logo.png"
-                        max-height="90"
-                        max-width="90"
+                        max-height="100"
+                        max-width="100"
                         contain>
                 </v-img>
             </router-link>
