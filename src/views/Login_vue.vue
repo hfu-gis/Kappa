@@ -16,7 +16,7 @@
                     >
                         <v-card class="elevation-12">
                             <v-toolbar
-                                    color="red"
+                                    color="purple darken-3"
                                     dark
                                     flat
                             >
@@ -43,7 +43,7 @@
                                             type="password"
                                     />
                                     <v-spacer/>
-                                    <v-btn type="submit" color="red" dark>
+                                    <v-btn type="submit" color="purple darken-3" dark>
                                         Login
                                     </v-btn>
                                 </v-form>
