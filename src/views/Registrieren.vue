@@ -16,7 +16,7 @@
                     >
                         <v-card class="elevation-12">
                             <v-toolbar
-                                    color="red"
+                                    color="purple darken-3"
                                     dark
                                     flat
                             >
@@ -67,7 +67,7 @@
                             </v-card-text>
                             <v-card-actions>
                                 <v-spacer/>
-                                <v-btn color="red" dark to="/Übersicht" >
+                                <v-btn color="purple darken-3" dark to="/Übersicht" >
                                    Registrieren
                                 </v-btn>
                             </v-card-actions>

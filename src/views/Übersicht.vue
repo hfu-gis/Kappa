@@ -6,9 +6,10 @@
         <v-data-table
                 :headers="headers"
                 :items="Abonnements"
-                :items-per-page="5"
+                :items-per-page="10"
                 class="elevation-1"
         ></v-data-table>
+        <v-btn normal router to="/abo_anlegen" class="red" dark>Hinzufügen</v-btn>
         <v-app>
             <v-app-bar app
                        color="red"
@@ -39,10 +40,11 @@
                         value: 'name',
                     },
                     { text: 'Startdatum', value: 'startdatum' },
-                    { text: 'Kosten pro Monat', value: 'kostenpromonat' },
                     { text: 'Anzahl der Nutzer', value: 'anzahldernutzer' },
                     { text: 'Abbuchungsdatum (jeden Monats)', value: 'abbuchungsdatumjedenmonats' },
                     { text: 'Kündigunsfrist (in Wochen)', value: 'kündigungsfristinwochen' },
+                    { text: 'Kosten pro Monat', value: 'kostenpromonat' },
+                    { text: '', value: 'bearbeiten' },
                 ],
                 Abonnements: [
                     {
@@ -52,6 +54,9 @@
                         anzahldernutzer: 2,
                         abbuchungsdatumjedenmonats: 24.,
                         kündigungsfristinwochen: 5,
+                        bearbeiten: <v-btn normal router to="/abobearbeiten">
+                        <v-icon dark>mdi-wrench</v-icon>
+                    </v-btn>,
                     },
                     {
                         name: 'Spotify',
@@ -60,6 +65,9 @@
                         anzahldernutzer: 2,
                         abbuchungsdatumjedenmonats: 24.,
                         kündigungsfristinwochen: 5,
+                        bearbeiten: <v-btn normal router to="/abobearbeiten">
+                <v-icon dark>mdi-wrench</v-icon>
+            </v-btn>,
                     },
                     {
                         name: 'Amazon Prime',
@@ -68,6 +76,9 @@
                         anzahldernutzer: 2,
                         abbuchungsdatumjedenmonats: 24.,
                         kündigungsfristinwochen: 5,
+                        bearbeiten: <v-btn normal router to="/abobearbeiten">
+                        <v-icon dark>mdi-wrench</v-icon>
+                    </v-btn>,
                     },
                     {
                         name: 'Deezer',
@@ -76,6 +87,9 @@
                         anzahldernutzer: 2,
                         abbuchungsdatumjedenmonats: 24.,
                         kündigungsfristinwochen: 5,
+                        bearbeiten: <v-btn normal router to="/abobearbeiten">
+                        <v-icon dark>mdi-wrench</v-icon>
+                    </v-btn>,
                     },
                     {
                         name: 'Apple Music',
@@ -84,6 +98,9 @@
                         anzahldernutzer: 2,
                         abbuchungsdatumjedenmonats: 24.,
                         kündigungsfristinwochen: 5,
+                        bearbeiten: <v-btn normal router to="/abobearbeiten">
+                        <v-icon dark>mdi-wrench</v-icon>
+                    </v-btn>,
                     },
                     {
                         name: 'Fitnessstudio',
@@ -92,6 +109,9 @@
                         anzahldernutzer: 2,
                         abbuchungsdatumjedenmonats: 24.,
                         kündigungsfristinwochen: 5,
+                        bearbeiten: <v-btn normal router to="/abobearbeiten">
+                        <v-icon dark>mdi-wrench</v-icon>
+                    </v-btn>,
                     },
                 ],
             }
