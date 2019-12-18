@@ -46,6 +46,9 @@
                                     <v-btn type="submit" color="red" dark>
                                         Login
                                     </v-btn>
+
+                                    <a href="Passwortvergessen.vue" > Passwort vergessen? </a>
+
                                 </v-form>
                             </v-card-text>
                             <v-card-actions>
