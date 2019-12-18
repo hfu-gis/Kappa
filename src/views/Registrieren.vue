@@ -1,37 +1,88 @@
 <template>
-    <vue>
-        <div class="container">
-            <h1>Registrierung</h1>
-            <p>Bitte die Felder ausfüllen um einen Account zu erstellen</p>
-            <hr>
+    <v-app id="inspire">
+        <v-content>
+            <v-container
+                    class="fill-height"
+                    fluid
+            >
+                <v-row
+                        align="center"
+                        justify="center"
+                >
+                    <v-col
+                            cols="12"
+                            sm="8"
+                            md="4"
+                    >
+                        <v-card class="elevation-12">
+                            <v-toolbar
+                                    color="purple darken-3"
+                                    dark
+                                    flat
+                            >
+                                <v-toolbar-title>Registrieren </v-toolbar-title>
+                                <v-spacer/>
 
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
+                            </v-toolbar>
+                            <v-card-text>
+                                <v-form>
+                                    <v-text-field
+                                            label="Vorname"
+                                            name="Vorname"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="text"
+                                    />
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-
-            <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-            <hr>
-
-            <p>Durch erstellen des Accounts stimmen sie unseren <a href="#">AGBs</a> zu.</p>
-            <button type="submit" class="registerbtn">Registrieren</button>
-        </div>
-
-        <div class="container signin">
-            <p>Du hast schon einen Account? <a href="login.html">Login</a>.</p>
-        </div>
-        </form>
-    </vue>
+                                    <v-text-field
+                                            label="Nachname"
+                                            name="Nachname"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="text"
+                                    />
+                                    <v-text-field
+                                            label="Geburtsdatum"
+                                            name="Geburtsdatum"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="text"
+                                    />
+                                    <v-text-field
+                                            label="E-Mailadresse"
+                                            name="E-Mailadresse"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="text"
+                                    />
+                                    <v-text-field
+                                            label="Passwort"
+                                            name="Passwort"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="password"
+                                    />
+                                    <v-text-field
+                                            label="Passwort bestätigen"
+                                            name="PasswortBestätigen"
+                                            prepend-icon="mdi-textbox-password"
+                                            type="password"
+                                    />
+                                </v-form>
+                            </v-card-text>
+                            <v-card-actions>
+                                <v-spacer/>
+                                <v-btn color="purple darken-3" dark to="/Übersicht" >
+                                   Registrieren
+                                </v-btn>
+                            </v-card-actions>
+                        </v-card>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-content>
+    </v-app>
 </template>
 
 <script>
     export default {
-        name: "Registrieren"
+        props: {
+            source: String,
+        }
     }
 </script>
-
-<style scoped>
-
-</style>

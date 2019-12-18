@@ -8,7 +8,7 @@ import Passwortvergessen from "../views/Passwortvergessen";
 import Passwortfalsch from "../views/Passwortfalsch";
 import Registrieren from "../views/Registrieren";
 
-import HelloWorld from "../components/HelloWorld";
+import Übersicht from "../views/Übersicht";
 
 Vue.use(VueRouter)
 
@@ -41,6 +41,10 @@ export default new VueRouter({
         {
             path: '/Registrieren',
             component: Registrieren
+        },
+        {
+            path: '/Übersicht',
+            component: Übersicht
         }
     ]
 })

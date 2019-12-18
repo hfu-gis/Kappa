@@ -1,62 +1,43 @@
 <template>
-  <div>
-      <v-app-bar
-              color="deep-purple accent-4"
-              dark
-      >
-          <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-          <v-toolbar-title>App-Organizer</v-toolbar-title>
-
-          <v-spacer></v-spacer>
-
-          <v-btn icon>
-              <v-icon>mdi-account</v-icon>
-          </v-btn>
-
-          <v-btn icon>
-              <v-icon>mdi-apps</v-icon>
-          </v-btn>
-
-          <v-menu
-                  left
-                  bottom
-          >
-              <template v-slot:activator="{ on }">
-                  <v-btn icon v-on="on">
-                      <v-icon>mdi-dots-vertical</v-icon>
-                  </v-btn>
-              </template>
-
-              <v-list>
-                  <v-list-item
-                          v-for="n in 5"
-                          :key="n"
-                          @click="() => {}"
-                  >
-                      <v-list-item-title>Option {{ n }}</v-list-item-title>
-                  </v-list-item>
-              </v-list>
-          </v-menu>
-      </v-app-bar>
-        <main>
-        <router-view></router-view>
-        </main>
-  </div>
+    <v-app>
+        <v-app-bar dark
+                   absolute
+                   color="transparent"
+                   elevate-on-scroll
+                   scroll-target="#scrolling-techniques-7"
+                   height="50"
+                   >
+            <router-link to="/home">
+                <v-img
+                        src="./assets/images/logo.png"
+                        max-height="100"
+                        max-width="100"
+                        contain>
+                </v-img>
+            </router-link>
+            <v-spacer/>
+            <v-toolbar-items>
+                <v-btn text router to="/login">
+                    <v-icon left>mdi-account</v-icon> Login
+                </v-btn>
+                <v-btn text router to="/Registrieren">
+                    <v-icon left>mdi-account-edit</v-icon> Registrieren
+                </v-btn>
+            </v-toolbar-items>
+        </v-app-bar>
+        <v-sheet
+                id="scrolling-techniques-7"
+                class="overflow-y-auto"
+                max-height="600"
+        >
+        </v-sheet>
+        <v-main>
+            <v-app>
+                <router-view></router-view>
+            </v-app>
+        </v-main>
+    </v-app>
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld';
-  export default {
-    name: 'App',
-    components: {
-      HelloWorld,
-    },
-    data: () => ({
-      //
-    }),
-    created() {
-      this.$router.push({path: '/home'})
-    }
-  };
 </script>
