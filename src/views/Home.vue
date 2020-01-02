@@ -16,7 +16,9 @@
                 <v-col cols="12"
                        md="8"
                        class="text-center">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p>Ob Spotify, Netflix oder einfach die Tageszeitung. Weißt du wie viel Geld du monatlich für Abos ausgibst? Nein? Wir wollen euch Abhilfe verschaffen.
+                        Und so geht’s: Du trägst deine Abos ein, gibst an wann dein Abo gestartet hat, ob du dein Abo mit jemand teilst und ob du einen Alarm für deine Kündigung möchtest. In der Übersicht kannst du dann sehen wie viel du monatlich ausgibst.
+                    </p>
                 </v-col>
             </v-row>
             <v-row           :align="alignment"
