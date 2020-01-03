@@ -46,5 +46,6 @@ export default new VueRouter({
             path: '/Übersicht',
             component: Übersicht
         }
+
     ]
 })
