@@ -32,6 +32,14 @@
             </fieldset>
         </form>
     </div>
+    <style scoped>
+
+    </style>
+    <v-card-actions>
+        <v-btn text>Speichern</v-btn>
+        <v-btn text>Abbrechen</v-btn>
+    </v-card-actions>
+    </v-card>
 </template>
 
 <script>
@@ -40,24 +48,7 @@
     }
 </script>
 
-<style scoped>
-
-</style>
-        <v-card-actions>
-            <v-btn text>Speichern</v-btn>
-            <v-btn text>Abbrechen</v-btn>
-        </v-card-actions>
-    </v-card>
-</template>
 
 
-<script>
-    export default {
-        name: "abobearbeiten"
-    }
-
-</script>
-
-<style scoped>
 
 </style>
