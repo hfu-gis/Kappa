@@ -2,6 +2,7 @@
 <template>
     <div>
         <v-breadcrumbs></v-breadcrumbs>
+        <v-breadcrumbs></v-breadcrumbs>
         <v-data-table
                 :headers="headers"
                 :items="Abonnements"
