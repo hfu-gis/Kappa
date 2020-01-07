@@ -1,23 +1,46 @@
 <template>
-    <v-card
-            max-width="10000"
-            outlined
-    >
-        <v-list-item three-line>
-            <v-list-item-content>
-                <div class="overline mb-4">OVERLINE</div>
-                <v-list-item-title class="headline mb-1">Abo Bearbeiten</v-list-item-title>
-                <v-list-item-subtitle>Anbieter wählen: Abo </v-list-item-subtitle>
-                <v-list-item-subtitle>Währung wählen: Euro</v-list-item-subtitle>
-                <v-list-item-subtitle>Startdatum: 01.01.2020</v-list-item-subtitle>
-                <v-list-item-subtitle>Laufzeit: 1 Jahr</v-list-item-subtitle>
-                <v-list-item-subtitle>Kosten: 10 Euro</v-list-item-subtitle>
+    <div>
+        <form>
+            <fieldset>
+                <h1>Abo bearbeiten <br></h1>
+                Anbieter<br>
+                <select name="cars">
+                    <option value="neflix">Neflix</option>
+                    <option value="amazon">Amazon</option>
+                    <option value="disney+">Disney+</option>
+                    <option value="Anderer">Anderer</option>
+                </select><br><br>
+                <input type="text">
+                <br><br>
+                Währung<br>
+                <input type="radio" name="währung" value="male" checked> Euro<br>
+                <input type="radio" name="währung" value="female"> Dollar<br>
+                <input type="radio" name="währung" value="other"> Franken<br><br>
+                Startdatum<br>
+                <input type="date" value="2019-01-01"><br><br>
+                Laufzeit<br>
+                <input type="date" value="2020-01-01"><br><br>
+                Kosten<br>
+                <input type="number" value="10" min="0" step="0.01"><br><br>
+                Benutzer<br>
+                <input type="number" value="1" name="bentzer" min="1" max="4"><br><br>
+                Kündigungsfrist<br>
+                <input type="number" name="kündigungsfrist" value="4" min="0" step="1"> Wochen<br><br>
 
-            </v-list-item-content>
+            </fieldset>
+        </form>
+    </div>
+</template>
 
+<script>
+    export default {
+        name: "Abo_bearbeiten"
+    }
+</script>
 
-        </v-list-item>
+<style scoped>
 
+</style>
         <v-card-actions>
             <v-btn text>Speichern</v-btn>
             <v-btn text>Abbrechen</v-btn>
