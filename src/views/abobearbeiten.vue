@@ -2,11 +2,7 @@
 <template>
     <div>
         <v-breadcrumbs></v-breadcrumbs>
-        <v-app>
-            <v-app-bar app
-                       color="red"
-                       dark
-                       height="50">
+
         <form>
             <fieldset>
                 <h1>Abo bearbeiten <br></h1>
