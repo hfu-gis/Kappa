@@ -7,7 +7,7 @@
                 <h1>Abo anlegen <br></h1>
                 Anbieter:<br>
                 <select name="cars">
-                    <option value="neflix">Neflix</option>
+                    <option value="netflix">Netflix</option>
                     <option value="amazon">Amazon</option>
                     <option value="disney+">Disney+</option>
                     <option value="Anderer">Anderer</option>
