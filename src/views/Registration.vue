@@ -98,11 +98,11 @@
             }
         },
         created() {
-            let docRef = db.collection('LegalCountries')
+            let docRef = db.collection('Abos')
             docRef.get().then(docs => {
                 docs.forEach(doc => this.countries.push(doc.data().name))
             })
-            docRef = db.collection('User').doc( '')
+            docRef = db.collection('User').doc('')
             docRef.get().then(doc => this.userData = doc.data())
         }
     }
