@@ -2,7 +2,6 @@
 <template>
     <div>
         <v-breadcrumbs></v-breadcrumbs>
-
         <form>
             <fieldset>
                 <h1>Abo bearbeiten <br></h1>
