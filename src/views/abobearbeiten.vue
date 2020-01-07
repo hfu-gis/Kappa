@@ -28,7 +28,7 @@
                 <input type="number" value="1" name="bentzer" min="1" max="4"><br><br>
                 Kündigungsfrist<br>
                 <input type="number" name="kündigungsfrist" value="4" min="0" step="1"> Wochen<br><br>
-                <input type="submit" value="Bestätigen"><br>
+                <input type="submit" value="Bestätigen">
                 <input type="reset" value="Zurücksetzen">
 
             </fieldset>
