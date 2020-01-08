@@ -23,16 +23,7 @@
             </v-row>
             <v-row           :align="alignment"
                              :justify="justify">
-                <v-col cols="8"
-                       md="4"
-                       class="text-center">
-                    <p class="title">Abos anlegen</p>
-                </v-col>
-                <v-col cols="8"
-                       md="4"
-                       class="text-center">
-                    <p class="title">Abos bearbeiten</p>
-                </v-col>
+
             </v-row>
             <v-row           :align="alignment"
                              :justify="justify">
