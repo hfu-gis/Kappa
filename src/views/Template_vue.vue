@@ -32,5 +32,5 @@ export default {
 </script>
 
 <style scoped>
-  /* CSS für diese Seite hier einfügen */
+  p { font: italic small-caps bold 1.2em/1.5em Georgia,Times,serif; }  /* CSS für diese Seite hier einfügen */
 </style>

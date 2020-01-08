@@ -16,8 +16,8 @@
                 <v-col cols="12"
                        md="8"
                        class="text-center"
-                        font="Verdana">
-                    <p>Ob Spotify, Netflix oder einfach die Tageszeitung. Weißt du wie viel Geld du monatlich für Abonnements ausgibst? <br> Nein? Wir wollen euch Abhilfe verschaffen. <br>
+                        >
+                    <p> Ob Spotify, Netflix oder einfach die Tageszeitung. Weißt du wie viel Geld du monatlich für Abonnements ausgibst? <br> Nein? Wir wollen euch Abhilfe verschaffen. <br>
                         Und so geht’s: Du trägst deine Abos ein, gibst an wann dein Abo gestartet hat, ob du dein Abo mit jemand teilst und ob du einen Alarm für deine Kündigung möchtest. In der Übersicht kannst du dann sehen wie viel du monatlich ausgibst.
                     </p>
                 </v-col>
@@ -77,5 +77,5 @@
 </script>
 
 <style scoped>
-
+font
 </style>
