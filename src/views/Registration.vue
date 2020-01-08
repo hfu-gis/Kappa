@@ -57,8 +57,8 @@
             valid: true,
             showPassword: false,
             Abos: {
-                Abo1: 'Spotify',
-                Abo2: 'Netflix',
+                Abo_1: 'Netflix',
+                Abo2: 'Spotify',
                 Abo3: 'Prime',
                 Abo4: 'Deezer',
                 Abo5: 'Fitnessstudio',
