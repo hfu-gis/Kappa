@@ -9,15 +9,19 @@
                 :items-per-page="10"
                 class="elevation-1"
         ></v-data-table>
-        <v-btn normal router to="/abo_anlegen" class="red" dark>Hinzufügen</v-btn>
+        <v-btn normal router to="/abo_anlegen" class="purple darken-3" dark>Hinzufügen</v-btn>
         <v-app>
             <v-app-bar app
-                       color="red"
+                       color="purple darken-3"
                        dark
                        height="50">
-                <v-toolbar-title left>
-                    <router-link to="/home" tag="span" style="cursor: pointer">My-Subs</router-link>
-                </v-toolbar-title>
+                <router-link to="/home">
+                    <v-img src="../assets/images/logo.png"
+                        max-height="100"
+                        max-width="100"
+                        contain>
+                    </v-img>
+                </router-link>
             </v-app-bar>
             <v-main>
                 <v-app>
