@@ -1,10 +1,10 @@
 <template>
     <div>
 
-        <v-img
+        //<v-img>
 
-                src="../assets/images/2148585.jpg"
-        ></v-img>
+                //src="../assets/images/2148585.jpg"
+       // </v-img>
         <v-container>
             <v-row           :align="alignment"
                              :justify="justify">
