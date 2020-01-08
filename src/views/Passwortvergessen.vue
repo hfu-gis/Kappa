@@ -39,7 +39,7 @@
                             <v-card-actions>
                                 <v-spacer/>
                                 <v-btn color="purple darken-3" dark  >
-                                    Registrieren
+                                    Senden
                                 </v-btn>
                             </v-card-actions>
                         </v-card>
