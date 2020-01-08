@@ -3,7 +3,7 @@
 
         <v-img
 
-                src="../assets/images/2148585_2.jpg"
+                src="../assets/images/2148585.jpg"
         ></v-img>
         <v-container>
             <v-row           :align="alignment"
