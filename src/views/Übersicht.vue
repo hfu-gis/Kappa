@@ -15,7 +15,7 @@
                        color="purple darken-3"
                        dark
                        height="50">
-                <router-link to="/home">
+                <router-link to="/Übersicht">
                     <v-img src="../assets/images/logo.png"
                         max-height="100"
                         max-width="100"
