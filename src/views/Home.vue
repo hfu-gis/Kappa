@@ -3,7 +3,7 @@
 
         <v-img
 
-                src="../assets/images/2148585_2.jpg"
+                src="../assets/images/2148585.jpg"
         ></v-img>
         <v-container>
             <v-row           :align="alignment"
@@ -15,22 +15,16 @@
                 </v-col>
                 <v-col cols="12"
                        md="8"
-                       class="text-center">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                       class="text-center"
+                        font="Verdana">
+                    <p>Ob Spotify, Netflix oder einfach die Tageszeitung. Weißt du wie viel Geld du monatlich für Abonnements ausgibst? <br> Nein? Wir wollen euch Abhilfe verschaffen. <br>
+                        Und so geht’s: Du trägst deine Abos ein, gibst an wann dein Abo gestartet hat, ob du dein Abo mit jemand teilst und ob du einen Alarm für deine Kündigung möchtest. In der Übersicht kannst du dann sehen wie viel du monatlich ausgibst.
+                    </p>
                 </v-col>
             </v-row>
             <v-row           :align="alignment"
                              :justify="justify">
-                <v-col cols="8"
-                       md="4"
-                       class="text-center">
-                    <p class="title">Abos anlegen</p>
-                </v-col>
-                <v-col cols="8"
-                       md="4"
-                       class="text-center">
-                    <p class="title">Abos bearbeiten</p>
-                </v-col>
+
             </v-row>
             <v-row           :align="alignment"
                              :justify="justify">
