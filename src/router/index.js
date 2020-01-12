@@ -7,7 +7,6 @@ import abobearbeiten from "../views/abobearbeiten";
 import Passwortvergessen from "../views/Passwortvergessen";
 import Passwortfalsch from "../views/Passwortfalsch";
 import Registrieren from "../views/Registrieren";
-import Datenschutz from "../views/Datenschutz";
 
 import Übersicht from "../views/Übersicht";
 
@@ -46,9 +45,7 @@ export default new VueRouter({
         {
             path: '/Übersicht',
             component: Übersicht
-        },
-        {path:'/Datenschutz' ,
-        component: Datenschutz}
+        }
 
     ]
 })

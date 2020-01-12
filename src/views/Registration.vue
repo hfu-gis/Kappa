@@ -57,8 +57,8 @@
             valid: true,
             showPassword: false,
             Abos: {
-                Abo1: 'Spotify',
-                Abo2: 'Netflix',
+                Abo_1: 'Netflix',
+                Abo2: 'Spotify',
                 Abo3: 'Prime',
                 Abo4: 'Deezer',
                 Abo5: 'Fitnessstudio',
@@ -98,11 +98,11 @@
             }
         },
         created() {
-            let docRef = db.collection('LegalCountries')
+            let docRef = db.collection('Abos')
             docRef.get().then(docs => {
                 docs.forEach(doc => this.countries.push(doc.data().name))
             })
-            docRef = db.collection('User').doc( '')
+            docRef = db.collection('User').doc('')
             docRef.get().then(doc => this.userData = doc.data())
         }
     }
