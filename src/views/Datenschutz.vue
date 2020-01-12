@@ -54,7 +54,7 @@
                         •	die Verarbeitung zur Abwicklung eines Vertrags mit Ihnen erforderlich ist,<br>
                         •	die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist,<br>
                         •	die Verarbeitung zur Wahrung berechtigter Interessen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe Ihrer Daten haben.<br>
-
+                        <br>
                         Löschung der Daten<br>
                         Wir halten uns an die Grundsätze der Datenvermeidung und Datensparsamkeit. Wir speichern Ihre personenbezogenen Daten daher nur so lange, wie dies zur Erreichung der hier genannten Zwecke erforderlich ist oder wie es die vom Gesetzgeber vorgesehenen vielfältigen Speicherfristen vorsehen. Nach Fortfall des jeweiligen Zweckes bzw. Ablauf dieser Fristen werden die entsprechenden Daten routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.<br>
                         Erfassung allgemeiner Informationen beim Besuch unserer Website<br>
@@ -66,20 +66,21 @@
                         Die Verarbeitung Ihrer personenbezogenen Daten basiert auf unserem berechtigten Interesse aus den vorgenannten Zwecken zur Datenerhebung. Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen.<br>
                         Wie Ihre Daten verwendet werden
                         Die von Ihnen angegeben Informationen (z.B. Namen, E-Mail-Adressen) werden in unseren Datenbanken während der Dauer der Umfrage oder des Messageboards gespeichert, um die Umfrage-Website verfügbar zu machen, auf der Ihre Teilnehmer für deren beste Option abstimmen können. Falls die Umfrage oder das Messageboard gelöscht wird, werden alle von Ihnen angegebenen Informationen aus der Datenbank entfernt. Falls der Administrator der Umfrage die Teilnehmer über MySub einlädt, werden die angegebenen E-Mail-Adressen für die Dauer der Umfrage gespeichert. Diese E-Mail-Adressen sind nur über den Adminstrationsbereich der Umfrage zugänglich.<br>
-
+                        <br>
                         Wie Ihre Daten geschützt werden<br>
                         MySub ergreift verschiedene Maßnahmen um das nicht-autorisierte Zugreifen auf Umfragen und Konten zu verhindern.<br>
                         Eine Umfrage kann nur mit einem einzigartigen Link aufgerufen werden, welcher vom Ersteller der Umfrage verteilt wird. Dieser Link beinhaltet einen 15-stelligen Zufallscode, welcher die Umfrage identifiziert und vor nicht-autorisiertem Zugriff durch die Komplexität des Zugangscodes schützt.<br>
                         Benutzerkonten werden durch Passwörter geschützt. Die Passwörter werden nur verschlüsselt (und nicht in Klartext) auf unseren Servern gespeichert. Wir überprüfen die Stärke des vom Benutzer gewählten Passworts während der Registrierung, um sicherzustellen, dass das Passwort ein Mindestmaß an Komplexität (um somit Sicherheit) aufweist. Die erhöht die Sicherheit des Benutzerkontos.<br>
                         All Ihre Daten werden auf modernen, zugangsgeschützten Webservern mit hohen Sicherheitsstandards gespeichert. Siehe Abschnitt "Serverstandort" für weitere Informationen.<br>
                         Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (SSL) über HTTPS.<br>
+                        <br>
                         Cookies
                         Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Cookies sind kleine Textdateien, die von einem Websiteserver auf Ihre Festplatte übertragen werden. Hierdurch erhalten wir automatisch bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser, Betriebssystem und Ihre Verbindung zum Internet.<br>
                         MySub verwendet Cookies um Ihnen die Benutzung des Dienstes zu erleichtern und um statistische Informationen aufzuzeichnen.
                         Internet-Browser sind typischerweise so eingestellt, dass sie Cookies akzeptieren. Im Allgemeinen können Sie die Verwendung von Cookies jederzeit über die Einstellungen Ihres Browsers deaktivieren. Sie können unsere Website grundsätzlich auch ohne Cookies betrachten. Bitte beachten Sie, dass einzelne Funktionen unserer Website dann möglicherweise nicht funktionieren.<br>
                         Registrierung auf unserer Webseite
                         Sie können sich auf MySub registrieren und somit ein Konto erstellen. Hierfür benötigen wir Ihren Namen und Ihre E-Mail-Adresse. Sie haben jederzeit die Möglichkeit diese Angaben zu ändern. Durch Löschen des Kontos werden Ihre Daten aus unserer Datenbank entfernt. Wenn Sie sich auf MySub registrieren, stimmen Sie zu, dass wir Ihnen wichtige Informationen, die den Service betreffen, zusenden (Beispielsweise Änderungen des Angebots oder technische Gegebenheiten). Ihre E-Mail-Adresse wird nicht zu Marketingzwecken verwendet.<br>
-
+                        <br>
                         Abstimm- und Kommentarfunktion<br>
                         Wenn Nutzer auf unserer Website in Umfragen abstimmen oder Kommentare hinterlassen, werden neben diesen Angaben auch der Zeitpunkt ihrer Erstellung und der zuvor durch den Websitebesucher gewählte Name gespeichert. Dies dient unserer Sicherheit, da wir für widerrechtliche Inhalte auf unserer Webseite belangt werden können, auch wenn diese durch Benutzer erstellt wurden.<br>
                         E-Mail-Benachrichtigungen<br>
@@ -88,6 +89,7 @@
                         Die Einwilligung zur Speicherung Ihrer persönlichen Daten und ihrer Nutzung für den Benachrichtigungversand können Sie jederzeit widerrufen. In jeder Benachrichtigung findet sich dazu ein entsprechender Link.<br>
                         Kontaktformular
                         Treten Sie per E-Mail oder Kontaktformular mit uns in Kontakt, erteilen Sie uns zum Zwecke der Kontaktaufnahme Ihre freiwillige Einwilligung. Hierfür ist die Angabe einer validen E-Mail-Adresse erforderlich. Die von Ihnen gemachten Angaben werden zum Zwecke der Bearbeitung der Anfrage sowie für mögliche Anschlussfragen gespeichert. Nach Erledigung der von Ihnen gestellten Anfrage werden personenbezogene Daten automatisch gelöscht.<br>
+                        <br>
                         Verwendung von Google Analytics<br>
                         Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (folgend: Google). Google Analytics verwendet sog. „Cookies“, also Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Webseite durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Aufgrund der Aktivierung der IP-Anonymisierung auf diesen Webseiten,<br>
                         wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Webseite auszuwerten, um Reports über die Webseitenaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Webseitenbetreiber zu erbringen.<br>
@@ -96,17 +98,20 @@
                         Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Webseite bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: Browser Add On zur Deaktivierung von Google Analytics.<br>
                         Zusätzlich oder als Alternative zum Browser-Add-On können Sie das Tracking durch Google Analytics auf unseren Seiten unterbinden, indem Sie diesen Link anklicken. Dabei wird ein Opt-Out-Cookie auf Ihrem Gerät installiert. Damit wird die Erfassung durch Google Analytics für diese Website und für diesen Browser zukünftig verhindert, so lange das Cookie in Ihrem Browser installiert bleibt.<br>
                         Die statistischen Daten, die durch Ihren Besuch anfallen werden von Google maximal 26 Monate gespeichert und dann gelöscht.<br>
+                        <br>
                         Verwendung von Scriptbibliotheken (Google Webfonts)<br>
                         Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen, verwenden wir auf dieser Website Scriptbibliotheken und Schriftbibliotheken wie z. B. Google Webfonts (https://www.google.com/webfonts/). Google Webfonts werden zur Vermeidung mehrfachen Ladens in den Cache Ihres Browsers übertragen. Falls der Browser die Google Webfonts nicht unterstützt oder den Zugriff unterbindet, werden Inhalte in einer Standardschrift angezeigt.<br>
                         Der Aufruf von Scriptbibliotheken oder Schriftbibliotheken löst automatisch eine Verbindung zum Betreiber der Bibliothek aus. Dabei ist es theoretisch möglich – aktuell allerdings auch unklar ob und ggf. zu welchen Zwecken – dass Betreiber entsprechender Bibliotheken Daten erheben.<br>
                         Die Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie hier: https://www.google.com/policies/privacy/<br>
+                        <br>
                         Google Adsense<br>
                         MySub nutzt den Dienst Google Adsense um Werbung auf einigen der Webseiten anzuzeigen. Diese Werbeanzeigen können auf dem Inhalt einer Umfrage oder eines Messageboard basieren. Die Datenschutzbestimmung von Google Ads finden Sie hier: http://www.google.com/policies/privacy/ads/. Weiterhin können Sie den Google’s Ads Preferences Manager benutzen, um die passenden Werbeeinstellungen für Sie einzustellen. Für Besucher aus der EU werden ausschliesslich nicht-personalisierte Werbeanzeigen eingeblendet, falls diese der entsprechen Cookie Nutzung nicht aktiv zustimmen. Für diese Anzeigen werden von Google keine persönlichen Daten gesammelt werden.<br>
-                        Änderungen unsere<br>
+                        <br>
                         Datenschutzerklärung<br>
                         Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.<br>
                         Standort<br>
                         Der Server und die Datenbanken von MySub befinden sich in Furtwangen, Deutschland.<br>
+                        <br>
                         GEÄNDERT: 08.01.2020 </p>
                 </v-col>
             </v-row>

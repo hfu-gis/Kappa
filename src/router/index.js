@@ -54,7 +54,7 @@ export default new VueRouter({
             component: Datenschutz
         },
         {
-            path:'Impressum',
+            path:'/Impressum',
             component: Impressum
         }
 
