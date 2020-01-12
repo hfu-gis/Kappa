@@ -36,6 +36,8 @@
             </v-row>
             <v-btn text router to="/Datenschutz"> Datenschutz
             </v-btn>
+            <v-btn text router to="/Impressum"> Impressum
+            </v-btn>
         </v-container>
     </div>
 </template>
