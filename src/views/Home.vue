@@ -24,10 +24,6 @@
             </v-row>
             <v-row           :align="alignment"
                              :justify="justify">
-
-            </v-row>
-            <v-row           :align="alignment"
-                             :justify="justify">
                 <v-col cols="6"
                        md="2">
                     <v-btn normal router to="/login" class="purple darken-3" dark>Login</v-btn>

@@ -1,4 +1,3 @@
-
 <template>
     <v-col>
         <v-card>
@@ -7,7 +6,6 @@
             </v-card-text>
         </v-card>
     <div>
-        <v-breadcrumbs></v-breadcrumbs>
         <v-breadcrumbs></v-breadcrumbs>
         <v-data-table
                 :headers="headers"
