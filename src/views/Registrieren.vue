@@ -29,20 +29,20 @@
                                     <v-text-field
                                             label="Vorname"
                                             name="Vorname"
-                                            prepend-icon="mdi-textbox-password"
+                                            prepend-icon="mdi-account"
                                             type="text"
                                     />
 
                                     <v-text-field
                                             label="Nachname"
                                             name="Nachname"
-                                            prepend-icon="mdi-textbox-password"
+                                            prepend-icon="mdi-account-circle"
                                             type="text"
                                     />
                                     <v-text-field
                                             label="Geburtsdatum"
                                             name="Geburtsdatum"
-                                            prepend-icon="mdi-textbox-password"
+                                            prepend-icon="mdi-ambulance"
                                             type="text"
                                     />
                                     <v-text-field
@@ -54,13 +54,13 @@
                                     <v-text-field
                                             label="Passwort"
                                             name="Passwort"
-                                            prepend-icon="mdi-textbox-password"
+                                            prepend-icon="mdi-book-lock"
                                             type="password"
                                     />
                                     <v-text-field
                                             label="Passwort bestätigen"
                                             name="PasswortBestätigen"
-                                            prepend-icon="mdi-textbox-password"
+                                            prepend-icon="mdi-book-lock"
                                             type="password"
                                     />
                                 </v-form>

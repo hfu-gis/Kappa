@@ -1,7 +1,11 @@
-
 <template>
+    <v-col>
+        <v-card>
+            <v-card-text class="headline font-weight-bold" v-model="name">
+                {{ name }}
+            </v-card-text>
+        </v-card>
     <div>
-        <v-breadcrumbs></v-breadcrumbs>
         <v-breadcrumbs></v-breadcrumbs>
         <v-data-table
                 :headers="headers"
@@ -9,15 +13,19 @@
                 :items-per-page="10"
                 class="elevation-1"
         ></v-data-table>
-        <v-btn normal router to="/abo_anlegen" class="red" dark>Hinzufügen</v-btn>
+        <v-btn normal router to="/abo_anlegen" class="purple darken-3" dark>Hinzufügen</v-btn>
         <v-app>
             <v-app-bar app
-                       color="red"
+                       color="purple darken-3"
                        dark
                        height="50">
-                <v-toolbar-title left>
-                    <router-link to="/home" tag="span" style="cursor: pointer">My-Subs</router-link>
-                </v-toolbar-title>
+                <router-link to="/Übersicht">
+                    <v-img src="../assets/images/logo.png"
+                        max-height="100"
+                        max-width="100"
+                        contain>
+                    </v-img>
+                </router-link>
             </v-app-bar>
             <v-main>
                 <v-app>
@@ -26,6 +34,7 @@
             </v-main>
         </v-app>
     </div>
+    </v-col>
 </template>
 
 <script>
@@ -57,64 +66,64 @@
                         bearbeiten: <v-btn normal router to="/abobearbeiten">
                         <v-icon dark>mdi-wrench</v-icon>
                     </v-btn>,
-                    },
-                    {
-                        name: 'Spotify',
-                        startdatum: 17.01,
-                        kostenpromonat: 10.00,
-                        anzahldernutzer: 2,
-                        abbuchungsdatumjedenmonats: 24.,
-                        kündigungsfristinwochen: 5,
-                        bearbeiten: <v-btn normal router to="/abobearbeiten">
+            },
+            {
+                name: 'Spotify',
+                startdatum: 17.01,
+                kostenpromonat: 10.00,
+                anzahldernutzer: 2,
+                abbuchungsdatumjedenmonats: 24.,
+                kündigungsfristinwochen: 5,
+                bearbeiten: <v-btn normal router to="/abobearbeiten">
                 <v-icon dark>mdi-wrench</v-icon>
             </v-btn>,
-                    },
-                    {
-                        name: 'Amazon Prime',
-                        startdatum: 17.01,
-                        kostenpromonat: 10.00,
-                        anzahldernutzer: 2,
-                        abbuchungsdatumjedenmonats: 24.,
-                        kündigungsfristinwochen: 5,
-                        bearbeiten: <v-btn normal router to="/abobearbeiten">
-                        <v-icon dark>mdi-wrench</v-icon>
-                    </v-btn>,
-                    },
-                    {
-                        name: 'Deezer',
-                        startdatum: 17.01,
-                        kostenpromonat: 10.00,
-                        anzahldernutzer: 2,
-                        abbuchungsdatumjedenmonats: 24.,
-                        kündigungsfristinwochen: 5,
-                        bearbeiten: <v-btn normal router to="/abobearbeiten">
-                        <v-icon dark>mdi-wrench</v-icon>
-                    </v-btn>,
-                    },
-                    {
-                        name: 'Apple Music',
-                        startdatum: 17.01,
-                        kostenpromonat: 10.00,
-                        anzahldernutzer: 2,
-                        abbuchungsdatumjedenmonats: 24.,
-                        kündigungsfristinwochen: 5,
-                        bearbeiten: <v-btn normal router to="/abobearbeiten">
-                        <v-icon dark>mdi-wrench</v-icon>
-                    </v-btn>,
-                    },
-                    {
-                        name: 'Fitnessstudio',
-                        startdatum: 17.01,
-                        kostenpromonat: 10.00,
-                        anzahldernutzer: 2,
-                        abbuchungsdatumjedenmonats: 24.,
-                        kündigungsfristinwochen: 5,
-                        bearbeiten: <v-btn normal router to="/abobearbeiten">
-                        <v-icon dark>mdi-wrench</v-icon>
-                    </v-btn>,
-                    },
-                ],
-            }
+        },
+            {
+                name: 'Amazon Prime',
+                    startdatum: 17.01,
+                kostenpromonat: 10.00,
+                anzahldernutzer: 2,
+                abbuchungsdatumjedenmonats: 24.,
+                kündigungsfristinwochen: 5,
+                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                <v-icon dark>mdi-wrench</v-icon>
+            </v-btn>,
+            },
+            {
+                name: 'Deezer',
+                    startdatum: 17.01,
+                kostenpromonat: 10.00,
+                anzahldernutzer: 2,
+                abbuchungsdatumjedenmonats: 24.,
+                kündigungsfristinwochen: 5,
+                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                <v-icon dark>mdi-wrench</v-icon>
+            </v-btn>,
+            },
+            {
+                name: 'Apple Music',
+                    startdatum: 17.01,
+                kostenpromonat: 10.00,
+                anzahldernutzer: 2,
+                abbuchungsdatumjedenmonats: 24.,
+                kündigungsfristinwochen: 5,
+                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                <v-icon dark>mdi-wrench</v-icon>
+            </v-btn>,
+            },
+            {
+                name: 'Fitnessstudio',
+                    startdatum: 17.01,
+                kostenpromonat: 10.00,
+                anzahldernutzer: 2,
+                abbuchungsdatumjedenmonats: 24.,
+                kündigungsfristinwochen: 5,
+                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                <v-icon dark>mdi-wrench</v-icon>
+            </v-btn>,
+            },
+        ],
+        }
         },
     }
 </script>
