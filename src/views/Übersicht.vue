@@ -63,7 +63,7 @@
                         anzahldernutzer: 2,
                         abbuchungsdatumjedenmonats: 24.,
                         kündigungsfristinwochen: 5,
-                        bearbeiten: <v-btn normal router to="/abobearbeiten">
+                        bearbeiten: <v-btn normal router to="/Abo_anlegen">
                         <v-icon dark>mdi-wrench</v-icon>
                     </v-btn>,
             },
@@ -74,7 +74,7 @@
                 anzahldernutzer: 2,
                 abbuchungsdatumjedenmonats: 24.,
                 kündigungsfristinwochen: 5,
-                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                bearbeiten: <v-btn normal router to="/Abo_anlegen">
                 <v-icon dark>mdi-wrench</v-icon>
             </v-btn>,
         },
@@ -85,7 +85,7 @@
                 anzahldernutzer: 2,
                 abbuchungsdatumjedenmonats: 24.,
                 kündigungsfristinwochen: 5,
-                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                bearbeiten: <v-btn normal router to="/Abo_anlegen">
                 <v-icon dark>mdi-wrench</v-icon>
             </v-btn>,
             },
@@ -96,7 +96,7 @@
                 anzahldernutzer: 2,
                 abbuchungsdatumjedenmonats: 24.,
                 kündigungsfristinwochen: 5,
-                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                bearbeiten: <v-btn normal router to="/Abo_anlegen">
                 <v-icon dark>mdi-wrench</v-icon>
             </v-btn>,
             },
@@ -107,7 +107,7 @@
                 anzahldernutzer: 2,
                 abbuchungsdatumjedenmonats: 24.,
                 kündigungsfristinwochen: 5,
-                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                bearbeiten: <v-btn normal router to="/Abo_anlegen">
                 <v-icon dark>mdi-wrench</v-icon>
             </v-btn>,
             },
@@ -118,7 +118,7 @@
                 anzahldernutzer: 2,
                 abbuchungsdatumjedenmonats: 24.,
                 kündigungsfristinwochen: 5,
-                bearbeiten: <v-btn normal router to="/abobearbeiten">
+                bearbeiten: <v-btn normal router to="/Abo_anlegen">
                 <v-icon dark>mdi-wrench</v-icon>
             </v-btn>,
             },
