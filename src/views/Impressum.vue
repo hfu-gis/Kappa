@@ -35,7 +35,8 @@
                         <v-col cols="12"
                                md="8"
                                class="text-center">
-                            <p>
+                            <p style="font-family: Verdana">
+
                                 Erstellt vom Team Kappa: <br>
                                 Redou Ainouz <br>
                                 Daniel Apfel<br>

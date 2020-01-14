@@ -13,7 +13,7 @@
                 :items-per-page="10"
                 class="elevation-1"
         ></v-data-table>
-        <v-btn normal router to="/abo_anlegen" class="purple darken-3" dark>Hinzufügen</v-btn>
+        <v-btn normal router to="/abo_anlegen" class="purple darken-3" style="font-family: Verdana"dark>Hinzufügen</v-btn>
         <v-app>
             <v-app-bar app
                        color="purple darken-3"

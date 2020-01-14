@@ -7,7 +7,7 @@
                        color="purple darken-3"
                        dark
                        height="50">
-                <router-link to="/Datschutz">
+                <router-link to="/Datenschutz">
                     <v-img src="../assets/images/logo.png"
                            max-height="100"
                            max-width="100"
@@ -34,7 +34,8 @@
                 </v-col>
                 <v-col cols="12"
                        md="8"
-                       class="text-center">
+                       class="text-center"
+                       style="font-family: Verdana">
                     <p>
                         Ihre Daten sind wichtig. Wir haben deshalb verschiedene Massnahmen getroffen um Ihre Daten und Ihre persönlichen Informationen vor Verlust, nicht-autorisiertem Zugriff, Manipulation und Zerstörung zu schützen. Im Folgenden werden wir beschreiben welche Daten wir sammeln und wie wir diese verwenden.<br>
                         Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:<br>

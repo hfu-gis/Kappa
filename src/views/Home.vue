@@ -6,25 +6,27 @@
                    :justify="justify">
                 <v-col cols="12"
                        md="8"
-                       class="text-center">
+                       class="text-center"
+                       style="font-family: Verdana">
                     <p class="display-2">Verwalte deine Abos</p>
                 </v-col>
                 <v-col cols="12"
                        md="6"
-                       class="text-center"
-                       font="Verdana">
-                    <p>Ob Spotify, Netflix oder einfach die Tageszeitung. <br>Weißt du wie viel Geld du monatlich für Abonnements ausgibst? <br> Nein? Wir wollen euch Abhilfe verschaffen. <br></p>
-                    <p> Und so geht’s: <br> Du trägst deine Abos ein, gibst an wann dein Abo gestartet hat, ob du dein Abo mit jemand teilst und ob du einen Alarm für deine Kündigung möchtest. In der Übersicht kannst du dann sehen wie viel du monatlich ausgibst.</p>
+                       class="text-center">
+                    <p style="font-family: Verdana">Ob Spotify, Netflix oder einfach die Tageszeitung. <br>Weißt du wie viel Geld du monatlich für Abonnements ausgibst? <br> Nein? Wir wollen euch Abhilfe verschaffen. <br></p>
+                    <p style="font-family: Verdana"> Und so geht’s: <br> Du trägst deine Abos ein, gibst an wann dein Abo gestartet hat, ob du dein Abo mit jemand teilst und ob du einen Alarm für deine Kündigung möchtest. In der Übersicht kannst du dann sehen wie viel du monatlich ausgibst.</p>
                 </v-col>
             </v-row>
             <v-row :align="alignment"
                    :justify="justify">
                 <v-col cols="6"
-                       md="2" >
+                       md="2"
+                       style="font-family: Verdana">
                     <v-btn normal router to="/login" class="purple darken-3" dark>Login</v-btn>
                 </v-col>
                 <v-col cols="6"
-                       md="2">
+                       md="2"
+                       style="font-family: Verdana">
                     <v-btn normal router to="/registrieren" class="purple darken-3" dark>Registrieren</v-btn>
                 </v-col>
             </v-row >
@@ -33,12 +35,14 @@
             >
                 <v-col cols="12"
                        md="6"
-                       class="text-center">
+                       class="text-center"
+                       style="font-family: Verdana">
                     <v-btn text router to="/Datenschutz" class="caption"> Datenschutz </v-btn>
                 </v-col>
                 <v-col cols="12"
                        md="6"
-                    class="text-center">
+                       class="text-center"
+                       style="font-family: Verdana">
                     <v-btn text router to="/Impressum" class="caption"> Impressum </v-btn>
                 </v-col>
             </v-footer>
