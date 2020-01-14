@@ -16,6 +16,7 @@ import Impressum from "../views/Impressum";
 Vue.use(VueRouter)
 
 export default new VueRouter({
+    mode: 'history',
     routes: [
         {
             path: '/',
